@@ -9,6 +9,7 @@ El proyecto incluye:
 - Manejo global de errores.
 - Persistencia en MySQL.
 - Tests unitarios para servicios y controladores.
+- Documentacion OpenAPI
 - Por practicidad, la `URL` de la BD y las credenciales estan `hardcoded` en las propiedades de la aplicación
 
 ## 1. Arquitectura
@@ -113,6 +114,12 @@ La API estará disponible en:
 
 ```text
 http://localhost:8080
+```
+
+La documentacion de OpenAPI estará disponible en:
+
+```text
+http://localhost:8080/swagger-ui/index.html
 ```
 
 # 5. Contratos REST
